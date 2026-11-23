@@ -206,7 +206,7 @@ val localReleaseApplicationIdSuffix =
         .map(::validatedApplicationIdSuffix)
 val localReleaseAppLabel =
     providers.gradleProperty("candy.localReleaseAppLabel")
-        .orElse("Candy Browser Local")
+        .orElse("Penozovi Local")
         .map(::validatedAppLabel)
 val releaseAbi = providers.gradleProperty("candy.releaseAbi").map { value ->
     require(value == "arm64-v8a") {
@@ -342,7 +342,7 @@ android {
         create("userCaDebug") {
             initWith(getByName("debug"))
             applicationIdSuffix = ".ca.debug"
-            manifestPlaceholders["appLabel"] = "Candy CA Debug"
+            manifestPlaceholders["appLabel"] = "Penozovi CA Debug"
             manifestPlaceholders["networkSecurityConfig"] =
                 "@xml/network_security_config_user_ca"
             buildConfigField("boolean", "TRUST_USER_CERTIFICATES", "true")
@@ -352,7 +352,7 @@ android {
         create("userCaRelease") {
             initWith(getByName("release"))
             applicationIdSuffix = ".ca"
-            manifestPlaceholders["appLabel"] = "Candy CA"
+            manifestPlaceholders["appLabel"] = "Penozovi CA"
             manifestPlaceholders["networkSecurityConfig"] =
                 "@xml/network_security_config_user_ca"
             buildConfigField("boolean", "TRUST_USER_CERTIFICATES", "true")
@@ -369,7 +369,7 @@ android {
         create("userCaNightly") {
             initWith(getByName("userCaRelease"))
             applicationIdSuffix = ".ca.nightly"
-            manifestPlaceholders["appLabel"] = "Candy CA Nightly"
+            manifestPlaceholders["appLabel"] = "Penozovi CA Nightly"
             buildConfigField("boolean", "NIGHTLY_BUILD", "true")
             matchingFallbacks += listOf("release")
         }

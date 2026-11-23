@@ -32,11 +32,11 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
       - name: Assemble release APKs
-        run: ./gradlew :app:assembleSystemwebviewRelease --stacktrace --no-daemon
+        run: ./gradlew :app:assembleSystemwebviewLocalRelease --stacktrace --no-daemon
       - name: Collect APKs
         run: |
           mkdir -p dist
-          find app/build/outputs/apk/systemwebview/release -name '*.apk' -type f -exec cp {} dist/ \;
+          find app/build/outputs/apk/systemwebview/localRelease -name '*.apk' -type f -exec cp {} dist/ \;
           ls -lh dist
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
