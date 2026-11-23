@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Gemini Nano でテキストを準備</string>
     <string name="reader_nano_enabled_summary">試験機能：一般的な独語・英語の略語や数字の読み方を改善します。Nano は音声を生成せず、選択したシステム音声やオフライン音声は変わりません。再生が遅れる場合があります。</string>
-    <string name="reader_nano_system_managed">このモデルは Android が管理し、他のアプリと共有します。オフにすると Candy での使用のみ停止します。</string>
+    <string name="reader_nano_system_managed">このモデルは Android が管理し、他のアプリと共有します。オフにすると Penozovi での使用のみ停止します。</string>
     <string name="reader_nano_download_summary">この端末は Gemini Nano 対応です。ダウンロードすると端末内で発音を準備します。音声のダウンロードや変更は行いません。</string>
     <string name="reader_nano_download">Gemini Nano をダウンロードして有効化</string>
     <string name="reader_nano_retry_download">Gemini Nano のダウンロードを再試行</string>

@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Last ned stemmemodell</string>
     <string name="reader_voice_delete">Slett stemmemodell</string>
     <string name="reader_voice_enabled_title">Supertonic-stemme uten nett</string>
-    <string name="reader_voice_enabled_summary">Når dette er av, bruker Candy Android-stemmen. Den nedlastede modellen beholdes når du slår av.</string>
+    <string name="reader_voice_enabled_summary">Når dette er av, bruker Penozovi Android-stemmen. Den nedlastede modellen beholdes når du slår av.</string>
     <string name="reader_voice_checking">Sjekker stemmemodellen…</string>
     <string name="reader_voice_working">Oppdaterer stemmemodellen…</string>
     <string name="reader_voice_downloading">Laster ned stemmemodell: %1$d%%</string>

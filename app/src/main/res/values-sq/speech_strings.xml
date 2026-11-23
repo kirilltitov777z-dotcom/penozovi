@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Shkarko modelin e zërit</string>
     <string name="reader_voice_delete">Fshi modelin e zërit</string>
     <string name="reader_voice_enabled_title">Zëri Supertonic jashtë linje</string>
-    <string name="reader_voice_enabled_summary">Kur çaktivizohet, Candy përdor zërin Android. Çaktivizimi e mban modelin e shkarkuar.</string>
+    <string name="reader_voice_enabled_summary">Kur çaktivizohet, Penozovi përdor zërin Android. Çaktivizimi e mban modelin e shkarkuar.</string>
     <string name="reader_voice_checking">Duke kontrolluar modelin e zërit…</string>
     <string name="reader_voice_working">Duke përditësuar modelin e zërit…</string>
     <string name="reader_voice_downloading">Duke shkarkuar modelin e zërit: %1$d%%</string>

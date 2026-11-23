@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Преузми модел гласа</string>
     <string name="reader_voice_delete">Избриши модел гласа</string>
     <string name="reader_voice_enabled_title">Supertonic глас без интернета</string>
-    <string name="reader_voice_enabled_summary">Када је искључено, Candy користи Android глас. Искључивање задржава преузети модел.</string>
+    <string name="reader_voice_enabled_summary">Када је искључено, Penozovi користи Android глас. Искључивање задржава преузети модел.</string>
     <string name="reader_voice_checking">Провера модела гласа…</string>
     <string name="reader_voice_working">Ажурирање модела гласа…</string>
     <string name="reader_voice_downloading">Преузимање модела гласа: %1$d%%</string>

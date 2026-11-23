@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">使用 Gemini Nano 准备文本</string>
     <string name="reader_nano_enabled_summary">实验功能：改善常见德语和英语缩写及数字的朗读。Nano 不生成语音，仍使用所选系统或离线语音。可能延迟播放。</string>
-    <string name="reader_nano_system_managed">Android 管理此模型并与其他应用共享。关闭仅停用 Candy 对它的使用。</string>
+    <string name="reader_nano_system_managed">Android 管理此模型并与其他应用共享。关闭仅停用 Penozovi 对它的使用。</string>
     <string name="reader_nano_download_summary">手机支持 Gemini Nano。下载后可在本机准备发音。这不会下载或更改朗读语音。</string>
     <string name="reader_nano_download">下载并启用 Gemini Nano</string>
     <string name="reader_nano_retry_download">重试下载 Gemini Nano</string>

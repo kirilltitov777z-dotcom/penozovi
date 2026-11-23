@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Stëmmmodell eroflueden</string>
     <string name="reader_voice_delete">Stëmmmodell läschen</string>
     <string name="reader_voice_enabled_title">Supertonic-Offlinestëmm</string>
-    <string name="reader_voice_enabled_summary">Wann ausgeschalt, benotzt Candy deng Android-Stëmm. Beim Ausschalte bleift den erofgeluedene Modell erhalen.</string>
+    <string name="reader_voice_enabled_summary">Wann ausgeschalt, benotzt Penozovi deng Android-Stëmm. Beim Ausschalte bleift den erofgeluedene Modell erhalen.</string>
     <string name="reader_voice_checking">Stëmmmodell gëtt iwwerpréift…</string>
     <string name="reader_voice_working">Stëmmmodell gëtt aktualiséiert…</string>
     <string name="reader_voice_downloading">Stëmmmodell gëtt erofgelueden: %1$d%%</string>

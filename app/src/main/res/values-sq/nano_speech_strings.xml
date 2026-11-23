@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Përgatit tekstin me Gemini Nano</string>
     <string name="reader_nano_enabled_summary">Eksperimentale: përmirëson leximin e shkurtimeve dhe numrave të zakonshëm gjermanë dhe anglezë. Nano nuk krijon zë: zëri i zgjedhur i sistemit ose jashtë linje mbetet i njëjtë. Mund të vonojë riprodhimin.</string>
-    <string name="reader_nano_system_managed">Android e menaxhon këtë model dhe e ndan me aplikacione të tjera. Çaktivizimi ndalon vetëm përdorimin në Candy.</string>
+    <string name="reader_nano_system_managed">Android e menaxhon këtë model dhe e ndan me aplikacione të tjera. Çaktivizimi ndalon vetëm përdorimin në Penozovi.</string>
     <string name="reader_nano_download_summary">Telefoni yt mbështet Gemini Nano. Shkarkoje për të përgatitur shqiptimin lokalisht. Kjo nuk shkarkon apo ndryshon zërin.</string>
     <string name="reader_nano_download">Shkarko dhe aktivizo Gemini Nano</string>
     <string name="reader_nano_retry_download">Provo përsëri shkarkimin e Gemini Nano</string>

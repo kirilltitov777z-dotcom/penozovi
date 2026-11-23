@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Prenesi glasovni model</string>
     <string name="reader_voice_delete">Izbriši glasovni model</string>
     <string name="reader_voice_enabled_title">Glas Supertonic brez povezave</string>
-    <string name="reader_voice_enabled_summary">Ko je izklopljeno, Candy uporablja glas Android. Izklop ohrani preneseni model.</string>
+    <string name="reader_voice_enabled_summary">Ko je izklopljeno, Penozovi uporablja glas Android. Izklop ohrani preneseni model.</string>
     <string name="reader_voice_checking">Preverjanje glasovnega modela…</string>
     <string name="reader_voice_working">Posodabljanje glasovnega modela…</string>
     <string name="reader_voice_downloading">Prenos glasovnega modela: %1$d%%</string>

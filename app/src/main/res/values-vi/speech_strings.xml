@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Tải mô hình giọng nói</string>
     <string name="reader_voice_delete">Xóa mô hình giọng nói</string>
     <string name="reader_voice_enabled_title">Giọng ngoại tuyến Supertonic</string>
-    <string name="reader_voice_enabled_summary">Khi tắt, Candy dùng giọng Android. Mô hình đã tải vẫn được giữ.</string>
+    <string name="reader_voice_enabled_summary">Khi tắt, Penozovi dùng giọng Android. Mô hình đã tải vẫn được giữ.</string>
     <string name="reader_voice_checking">Đang kiểm tra mô hình giọng nói…</string>
     <string name="reader_voice_working">Đang cập nhật mô hình giọng nói…</string>
     <string name="reader_voice_downloading">Đang tải mô hình giọng nói: %1$d%%</string>

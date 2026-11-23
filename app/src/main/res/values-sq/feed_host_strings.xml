@@ -2,7 +2,7 @@
 <resources>
     <string name="feeds_next_unread">Artikulli tjetër i palexuar</string>
     <string name="feeds_notifications_denied">Njoftimet janë çaktivizuar në Android. Zgjedhja jote është ruajtur.</string>
-    <string name="feeds_notification_channel">Burimet Candy</string>
+    <string name="feeds_notification_channel">Burimet Penozovi</string>
     <string name="feeds_notification_count">%1$d artikuj të palexuar po të presin.</string>
     <string name="feeds_speech_next">Artikulli tjetër</string>
     <string name="feeds_speech_speed">Shpejtësia e leximit: %1$s×</string>

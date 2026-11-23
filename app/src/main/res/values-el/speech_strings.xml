@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Λήψη μοντέλου φωνής</string>
     <string name="reader_voice_delete">Διαγραφή μοντέλου φωνής</string>
     <string name="reader_voice_enabled_title">Φωνή εκτός σύνδεσης Supertonic</string>
-    <string name="reader_voice_enabled_summary">Όταν είναι ανενεργό, το Candy χρησιμοποιεί φωνή Android. Το ληφθέν μοντέλο διατηρείται.</string>
+    <string name="reader_voice_enabled_summary">Όταν είναι ανενεργό, το Penozovi χρησιμοποιεί φωνή Android. Το ληφθέν μοντέλο διατηρείται.</string>
     <string name="reader_voice_checking">Έλεγχος μοντέλου φωνής…</string>
     <string name="reader_voice_working">Ενημέρωση μοντέλου φωνής…</string>
     <string name="reader_voice_downloading">Λήψη μοντέλου φωνής: %1$d%%</string>

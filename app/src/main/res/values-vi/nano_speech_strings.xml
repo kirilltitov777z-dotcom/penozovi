@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Chuẩn bị văn bản bằng Gemini Nano</string>
     <string name="reader_nano_enabled_summary">Thử nghiệm: cải thiện cách đọc từ viết tắt và số tiếng Đức, Anh thông dụng. Nano không tạo giọng nói; giọng hệ thống hoặc ngoại tuyến đã chọn không đổi. Có thể làm chậm phát.</string>
-    <string name="reader_nano_system_managed">Android quản lý mô hình này và chia sẻ với ứng dụng khác. Tắt chỉ ngừng dùng trong Candy.</string>
+    <string name="reader_nano_system_managed">Android quản lý mô hình này và chia sẻ với ứng dụng khác. Tắt chỉ ngừng dùng trong Penozovi.</string>
     <string name="reader_nano_download_summary">Điện thoại hỗ trợ Gemini Nano. Tải để chuẩn bị phát âm cục bộ. Việc này không tải hay đổi giọng đọc.</string>
     <string name="reader_nano_download">Tải và bật Gemini Nano</string>
     <string name="reader_nano_retry_download">Thử tải lại Gemini Nano</string>

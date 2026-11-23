@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Gemini Nano로 텍스트 준비</string>
     <string name="reader_nano_enabled_summary">실험 기능: 일반적인 독일어·영어 약어와 숫자 읽기를 개선합니다. Nano는 음성을 생성하지 않으며 선택한 시스템 또는 오프라인 음성이 유지됩니다. 재생이 지연될 수 있습니다.</string>
-    <string name="reader_nano_system_managed">Android가 모델을 관리하고 다른 앱과 공유합니다. 끄면 Candy에서의 사용만 중지됩니다.</string>
+    <string name="reader_nano_system_managed">Android가 모델을 관리하고 다른 앱과 공유합니다. 끄면 Penozovi에서의 사용만 중지됩니다.</string>
     <string name="reader_nano_download_summary">휴대폰이 Gemini Nano를 지원합니다. 다운로드하면 발음을 기기에서 준비합니다. 읽기 음성을 다운로드하거나 변경하지 않습니다.</string>
     <string name="reader_nano_download">Gemini Nano 다운로드 및 사용</string>
     <string name="reader_nano_retry_download">Gemini Nano 다운로드 다시 시도</string>

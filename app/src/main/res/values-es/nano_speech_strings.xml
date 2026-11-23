@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Preparar texto con Gemini Nano</string>
     <string name="reader_nano_enabled_summary">Experimental: mejora la lectura de abreviaturas y números habituales en alemán e inglés. Nano no genera una voz: tu voz del sistema o sin conexión no cambia. Puede retrasar la reproducción.</string>
-    <string name="reader_nano_system_managed">Android gestiona este modelo y lo comparte con otras aplicaciones. Desactivarlo solo impide su uso en Candy.</string>
+    <string name="reader_nano_system_managed">Android gestiona este modelo y lo comparte con otras aplicaciones. Desactivarlo solo impide su uso en Penozovi.</string>
     <string name="reader_nano_download_summary">Tu teléfono admite Gemini Nano. Descárgalo para preparar la pronunciación localmente. Esto no descarga ni cambia la voz de lectura.</string>
     <string name="reader_nano_download">Descargar y activar Gemini Nano</string>
     <string name="reader_nano_retry_download">Reintentar descarga de Gemini Nano</string>

@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Скачать голосовую модель</string>
     <string name="reader_voice_delete">Удалить голосовую модель</string>
     <string name="reader_voice_enabled_title">Офлайн-голос Supertonic</string>
-    <string name="reader_voice_enabled_summary">При отключении Candy использует голос Android. Скачанная модель при этом сохраняется.</string>
+    <string name="reader_voice_enabled_summary">При отключении Penozovi использует голос Android. Скачанная модель при этом сохраняется.</string>
     <string name="reader_voice_checking">Проверка голосовой модели…</string>
     <string name="reader_voice_working">Обновление голосовой модели…</string>
     <string name="reader_voice_downloading">Скачивание голосовой модели: %1$d%%</string>

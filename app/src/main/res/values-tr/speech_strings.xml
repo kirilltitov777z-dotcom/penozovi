@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Ses modelini indir</string>
     <string name="reader_voice_delete">Ses modelini sil</string>
     <string name="reader_voice_enabled_title">Supertonic çevrimdışı ses</string>
-    <string name="reader_voice_enabled_summary">Kapalıyken Candy Android sesini kullanır. Kapatmak indirilen modeli korur.</string>
+    <string name="reader_voice_enabled_summary">Kapalıyken Penozovi Android sesini kullanır. Kapatmak indirilen modeli korur.</string>
     <string name="reader_voice_checking">Ses modeli kontrol ediliyor…</string>
     <string name="reader_voice_working">Ses modeli güncelleniyor…</string>
     <string name="reader_voice_downloading">Ses modeli indiriliyor: %1$d%%</string>

@@ -2,7 +2,7 @@
 <resources>
     <string name="feeds_next_unread">Próximo artigo não lido</string>
     <string name="feeds_notifications_denied">As notificações estão desativadas no Android. A sua seleção foi guardada.</string>
-    <string name="feeds_notification_channel">Feeds Candy</string>
+    <string name="feeds_notification_channel">Feeds Penozovi</string>
     <string name="feeds_notification_count">Tem %1$d artigos não lidos à espera.</string>
     <string name="feeds_speech_next">Próximo artigo</string>
     <string name="feeds_speech_speed">Velocidade de leitura: %1$s×</string>

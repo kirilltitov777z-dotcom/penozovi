@@ -9,7 +9,7 @@
     <string name="reader_voice_download">음성 모델 다운로드</string>
     <string name="reader_voice_delete">음성 모델 삭제</string>
     <string name="reader_voice_enabled_title">Supertonic 오프라인 음성</string>
-    <string name="reader_voice_enabled_summary">끄면 Candy가 Android 음성을 사용합니다. 다운로드된 모델은 유지됩니다.</string>
+    <string name="reader_voice_enabled_summary">끄면 Penozovi가 Android 음성을 사용합니다. 다운로드된 모델은 유지됩니다.</string>
     <string name="reader_voice_checking">음성 모델 확인 중…</string>
     <string name="reader_voice_working">음성 모델 업데이트 중…</string>
     <string name="reader_voice_downloading">음성 모델 다운로드 중: %1$d%%</string>

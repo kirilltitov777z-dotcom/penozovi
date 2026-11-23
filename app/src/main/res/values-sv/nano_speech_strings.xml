@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Förbered text med Gemini Nano</string>
     <string name="reader_nano_enabled_summary">Experimentellt: förbättrar hur vanliga tyska och engelska förkortningar och tal läses upp. Nano skapar ingen röst: vald system- eller offlineröst behålls. Kan fördröja uppspelningen.</string>
-    <string name="reader_nano_system_managed">Android hanterar den här modellen och delar den med andra appar. Att stänga av detta inaktiverar endast användningen i Candy.</string>
+    <string name="reader_nano_system_managed">Android hanterar den här modellen och delar den med andra appar. Att stänga av detta inaktiverar endast användningen i Penozovi.</string>
     <string name="reader_nano_download_summary">Telefonen stöder Gemini Nano. Ladda ned den för att förbereda uttalet lokalt. Detta laddar inte ned eller ändrar rösten.</string>
     <string name="reader_nano_download">Ladda ned och aktivera Gemini Nano</string>
     <string name="reader_nano_retry_download">Försök ladda ned Gemini Nano igen</string>

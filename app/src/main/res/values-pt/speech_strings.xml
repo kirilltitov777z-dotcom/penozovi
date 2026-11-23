@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Transferir modelo de voz</string>
     <string name="reader_voice_delete">Eliminar modelo de voz</string>
     <string name="reader_voice_enabled_title">Voz offline Supertonic</string>
-    <string name="reader_voice_enabled_summary">Quando desativado, o Candy usa a voz Android. Desativar mantém o modelo transferido.</string>
+    <string name="reader_voice_enabled_summary">Quando desativado, o Penozovi usa a voz Android. Desativar mantém o modelo transferido.</string>
     <string name="reader_voice_checking">A verificar o modelo de voz…</string>
     <string name="reader_voice_working">A atualizar o modelo de voz…</string>
     <string name="reader_voice_downloading">A transferir modelo de voz: %1$d%%</string>

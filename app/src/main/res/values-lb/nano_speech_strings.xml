@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">Text mat Gemini Nano virbereeden</string>
     <string name="reader_nano_enabled_summary">Experimentell: verbessert d’Aussprooch vun üblechen däitschen an engleschen Ofkierzungen an Zuelen. Nano generéiert keng Stëmm: deng gewielte System- oder Offlinestëmm bleift d’selwecht. Kann d’Ofspille verzögeren.</string>
-    <string name="reader_nano_system_managed">Android geréiert dëse Modell an deelt e mat aneren Apps. Ausschalte deaktivéiert nëmme seng Benotzung a Candy.</string>
+    <string name="reader_nano_system_managed">Android geréiert dëse Modell an deelt e mat aneren Apps. Ausschalte deaktivéiert nëmme seng Benotzung a Penozovi.</string>
     <string name="reader_nano_download_summary">Däin Telefon ënnerstëtzt Gemini Nano. Luet et erof, fir d’Aussprooch lokal virzebereeden. Dëst luet keng Stëmm erof a verännert se net.</string>
     <string name="reader_nano_download">Gemini Nano eroflueden an aktivéieren</string>
     <string name="reader_nano_retry_download">Gemini Nano nach eng Kéier eroflueden</string>

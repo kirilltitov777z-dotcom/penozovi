@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Preuzmi model glasa</string>
     <string name="reader_voice_delete">Izbriši model glasa</string>
     <string name="reader_voice_enabled_title">Supertonic glas bez interneta</string>
-    <string name="reader_voice_enabled_summary">Kada je isključeno, Candy koristi Android glas. Isključivanje zadržava preuzeti model.</string>
+    <string name="reader_voice_enabled_summary">Kada je isključeno, Penozovi koristi Android glas. Isključivanje zadržava preuzeti model.</string>
     <string name="reader_voice_checking">Provjera modela glasa…</string>
     <string name="reader_voice_working">Ažuriranje modela glasa…</string>
     <string name="reader_voice_downloading">Preuzimanje modela glasa: %1$d%%</string>

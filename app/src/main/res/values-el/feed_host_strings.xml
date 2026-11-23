@@ -2,7 +2,7 @@
 <resources>
     <string name="feeds_next_unread">Επόμενο μη αναγνωσμένο άρθρο</string>
     <string name="feeds_notifications_denied">Οι ειδοποιήσεις Android είναι απενεργοποιημένες. Η επιλογή σας αποθηκεύτηκε.</string>
-    <string name="feeds_notification_channel">Ροές Candy</string>
+    <string name="feeds_notification_channel">Ροές Penozovi</string>
     <string name="feeds_notification_count">Σας περιμένουν %1$d μη αναγνωσμένα άρθρα.</string>
     <string name="feeds_speech_next">Επόμενο άρθρο</string>
     <string name="feeds_speech_speed">Ταχύτητα ανάγνωσης: %1$s×</string>

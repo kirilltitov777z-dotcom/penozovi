@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Pobierz model głosu</string>
     <string name="reader_voice_delete">Usuń model głosu</string>
     <string name="reader_voice_enabled_title">Głos offline Supertonic</string>
-    <string name="reader_voice_enabled_summary">Po wyłączeniu Candy używa głosu Androida. Wyłączenie zachowuje pobrany model.</string>
+    <string name="reader_voice_enabled_summary">Po wyłączeniu Penozovi używa głosu Androida. Wyłączenie zachowuje pobrany model.</string>
     <string name="reader_voice_checking">Sprawdzanie modelu głosu…</string>
     <string name="reader_voice_working">Aktualizowanie modelu głosu…</string>
     <string name="reader_voice_downloading">Pobieranie modelu głosu: %1$d%%</string>

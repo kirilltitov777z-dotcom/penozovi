@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Stemmodel downloaden</string>
     <string name="reader_voice_delete">Stemmodel verwijderen</string>
     <string name="reader_voice_enabled_title">Supertonic-offlinestem</string>
-    <string name="reader_voice_enabled_summary">Wanneer dit uitstaat gebruikt Candy je Android-stem. Uitschakelen behoudt het gedownloade model.</string>
+    <string name="reader_voice_enabled_summary">Wanneer dit uitstaat gebruikt Penozovi je Android-stem. Uitschakelen behoudt het gedownloade model.</string>
     <string name="reader_voice_checking">Stemmodel controleren…</string>
     <string name="reader_voice_working">Stemmodel bijwerken…</string>
     <string name="reader_voice_downloading">Stemmodel downloaden: %1$d%%</string>

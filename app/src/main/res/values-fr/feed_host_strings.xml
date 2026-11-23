@@ -2,7 +2,7 @@
 <resources>
     <string name="feeds_next_unread">Article non lu suivant</string>
     <string name="feeds_notifications_denied">Les notifications sont désactivées dans Android. Votre sélection est enregistrée.</string>
-    <string name="feeds_notification_channel">Flux Candy</string>
+    <string name="feeds_notification_channel">Flux Penozovi</string>
     <string name="feeds_notification_count">%1$d articles non lus vous attendent.</string>
     <string name="feeds_speech_next">Article suivant</string>
     <string name="feeds_speech_speed">Vitesse de lecture : %1$s×</string>

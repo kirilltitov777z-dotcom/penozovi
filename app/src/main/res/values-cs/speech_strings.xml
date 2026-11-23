@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Stáhnout hlasový model</string>
     <string name="reader_voice_delete">Smazat hlasový model</string>
     <string name="reader_voice_enabled_title">Offline hlas Supertonic</string>
-    <string name="reader_voice_enabled_summary">Při vypnutí Candy používá hlas Androidu. Vypnutí zachová stažený model.</string>
+    <string name="reader_voice_enabled_summary">Při vypnutí Penozovi používá hlas Androidu. Vypnutí zachová stažený model.</string>
     <string name="reader_voice_checking">Kontrola hlasového modelu…</string>
     <string name="reader_voice_working">Aktualizace hlasového modelu…</string>
     <string name="reader_voice_downloading">Stahování hlasového modelu: %1$d%%</string>

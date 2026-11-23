@@ -9,7 +9,7 @@
     <string name="reader_voice_download">Descarcă modelul vocal</string>
     <string name="reader_voice_delete">Șterge modelul vocal</string>
     <string name="reader_voice_enabled_title">Voce offline Supertonic</string>
-    <string name="reader_voice_enabled_summary">Când este dezactivat, Candy folosește vocea Android. Dezactivarea păstrează modelul descărcat.</string>
+    <string name="reader_voice_enabled_summary">Când este dezactivat, Penozovi folosește vocea Android. Dezactivarea păstrează modelul descărcat.</string>
     <string name="reader_voice_checking">Se verifică modelul vocal…</string>
     <string name="reader_voice_working">Se actualizează modelul vocal…</string>
     <string name="reader_voice_downloading">Se descarcă modelul vocal: %1$d%%</string>

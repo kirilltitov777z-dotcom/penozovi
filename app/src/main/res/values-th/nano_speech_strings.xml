@@ -2,7 +2,7 @@
 <resources>
     <string name="reader_nano_enabled_title">เตรียมข้อความด้วย Gemini Nano</string>
     <string name="reader_nano_enabled_summary">ทดลอง: ปรับปรุงการอ่านคำย่อและตัวเลขภาษาเยอรมันและอังกฤษทั่วไป Nano ไม่สร้างเสียง ยังคงใช้เสียงระบบหรือออฟไลน์ที่เลือก อาจทำให้เริ่มเล่นช้าลง</string>
-    <string name="reader_nano_system_managed">Android จัดการโมเดลนี้และแชร์กับแอปอื่น การปิดจะปิดใช้ใน Candy เท่านั้น</string>
+    <string name="reader_nano_system_managed">Android จัดการโมเดลนี้และแชร์กับแอปอื่น การปิดจะปิดใช้ใน Penozovi เท่านั้น</string>
     <string name="reader_nano_download_summary">โทรศัพท์รองรับ Gemini Nano ดาวน์โหลดเพื่อเตรียมการออกเสียงในเครื่อง โดยไม่ดาวน์โหลดหรือเปลี่ยนเสียงพูด</string>
     <string name="reader_nano_download">ดาวน์โหลดและเปิดใช้ Gemini Nano</string>
     <string name="reader_nano_retry_download">ลองดาวน์โหลด Gemini Nano อีกครั้ง</string>

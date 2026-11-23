@@ -9,7 +9,7 @@
     <string name="reader_voice_download">下载语音模型</string>
     <string name="reader_voice_delete">删除语音模型</string>
     <string name="reader_voice_enabled_title">Supertonic 离线语音</string>
-    <string name="reader_voice_enabled_summary">关闭时 Candy 使用 Android 语音。关闭会保留已下载模型。</string>
+    <string name="reader_voice_enabled_summary">关闭时 Penozovi 使用 Android 语音。关闭会保留已下载模型。</string>
     <string name="reader_voice_checking">正在检查语音模型…</string>
     <string name="reader_voice_working">正在更新语音模型…</string>
     <string name="reader_voice_downloading">正在下载语音模型：%1$d%%</string>

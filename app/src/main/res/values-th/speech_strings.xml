@@ -9,7 +9,7 @@
     <string name="reader_voice_download">ดาวน์โหลดโมเดลเสียง</string>
     <string name="reader_voice_delete">ลบโมเดลเสียง</string>
     <string name="reader_voice_enabled_title">เสียงออฟไลน์ Supertonic</string>
-    <string name="reader_voice_enabled_summary">เมื่อปิด Candy ใช้เสียง Android การปิดยังเก็บโมเดลที่ดาวน์โหลดไว้</string>
+    <string name="reader_voice_enabled_summary">เมื่อปิด Penozovi ใช้เสียง Android การปิดยังเก็บโมเดลที่ดาวน์โหลดไว้</string>
     <string name="reader_voice_checking">กำลังตรวจโมเดลเสียง…</string>
     <string name="reader_voice_working">กำลังอัปเดตโมเดลเสียง…</string>
     <string name="reader_voice_downloading">กำลังดาวน์โหลดโมเดลเสียง: %1$d%%</string>
