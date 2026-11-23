@@ -22,22 +22,43 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
+
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+
+      - name: Restore signing keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.PENOZOVI_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.PENOZOVI_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.PENOZOVI_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.PENOZOVI_KEY_PASSWORD }}
+        run: |
+          mkdir -p keystore
+          printf '%s' "$KEYSTORE_BASE64" | base64 -d > keystore/penozovi.keystore
+          printf 'storeFile=keystore/penozovi.keystore\nstorePassword=%s\nkeyAlias=%s\nkeyPassword=%s\n' \
+            "$STORE_PASSWORD" "$KEY_ALIAS" "$KEY_PASSWORD" > keystore.properties
+
       - name: Make gradlew executable
         run: chmod +x gradlew
-      - name: Assemble release APKs
-        run: ./gradlew :app:assembleSystemwebviewLocalRelease --stacktrace --no-daemon
-      - name: Collect APKs
+
+      - name: Assemble signed release APK
+        run: ./gradlew :app:assembleSystemwebviewRelease --stacktrace --no-daemon
+
+      - name: Collect signed APK
+        env:
+          TAG: ${{ github.event.inputs.tag || github.ref_name }}
         run: |
           mkdir -p dist
-          find app/build/outputs/apk/systemwebview/localRelease -name '*.apk' -type f -exec cp {} dist/ \;
+          APK=$(find app/build/outputs/apk/systemwebview/release -name '*.apk' -type f | head -1)
+          cp "$APK" "dist/Penozovi-$TAG.apk"
           ls -lh dist
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
