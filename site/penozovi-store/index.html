@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#7E2E33">
+  <title>Магазин плагинов — Penozovi</title>
+  <style>
+    :root { color-scheme: light dark; --pink: #f6bfcb; --rose: #7e2e33; --ink: #2a2326; --surface: #f9eef0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 20px 16px 48px;
+      font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--surface); color: var(--ink); max-width: 760px; margin-inline: auto;
+    }
+    header { text-align: center; padding: 24px 0 12px; }
+    .logo {
+      width: 96px; height: 96px; margin: 0 auto 12px; border-radius: 28px;
+      background: var(--rose); display: grid; place-items: center; font-size: 48px;
+    }
+    h1 { margin: 0; font-size: 26px; letter-spacing: -.3px; }
+    .sub { opacity: .72; margin: 6px 0 0; font-size: 14px; }
+    .grid { display: grid; gap: 12px; margin-top: 24px; }
+    .card {
+      background: var(--pink); border-radius: 24px; padding: 16px;
+      display: grid; grid-template-columns: 48px 1fr; gap: 14px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.06);
+    }
+    .card .icon { font-size: 34px; text-align: center; }
+    .card h2 { margin: 0 0 4px; font-size: 17px; }
+    .card p { margin: 0; font-size: 14px; opacity: .85; }
+    .meta { margin-top: 8px; font-size: 12px; opacity: .62; display: flex; gap: 10px; flex-wrap: wrap; }
+    .tag { background: rgba(126,46,51,.12); padding: 2px 9px; border-radius: 999px; }
+    .empty { text-align: center; opacity: .7; padding: 40px 0; }
+    footer { text-align: center; margin-top: 32px; font-size: 12px; opacity: .6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --surface: #1d1718; --ink: #f5e6ea; --pink: #332326; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🍥</div>
+    <h1>Магазин плагинов</h1>
+    <p class="sub">Penozovi Browser · плагины собираются через GitHub Actions</p>
+  </header>
+  <main class="grid" id="list"><div class="empty">Загрузка каталога…</div></main>
+  <footer>Добавить плагин можно через PR в <code>plugins/catalog/</code></footer>
+  <script>
+    fetch('index.json', {cache: 'no-store'})
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => {
+        const list = document.getElementById('list');
+        list.innerHTML = '';
+        (data.plugins || []).forEach(p => {
+          const el = document.createElement('article');
+          el.className = 'card';
+          el.innerHTML =
+            '<div class="icon">' + (p.icon || '🧩') + '</div>' +
+            '<div><h2>' + p.name + '</h2><p>' + p.description + '</p>' +
+            '<div class="meta"><span class="tag">' + p.category + '</span>' +
+            '<span>v' + p.version + '</span><span>от ' + p.author + '</span></div></div>';
+          list.appendChild(el);
+        });
+        if (!data.plugins || !data.plugins.length) {
+          list.innerHTML = '<div class="empty">Плагинов пока нет</div>';
+        }
+      })
+      .catch(() => {
+        document.getElementById('list').innerHTML = '<div class="empty">Не удалось загрузить index.json</div>';
+      });
+  </script>
+</body>
+</html>

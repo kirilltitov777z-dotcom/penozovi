@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "plugins" / "catalog"
 OUTPUTS = [
     ROOT / "store" / "index.json",
+    ROOT / "site" / "penozovi-store" / "index.json",
     ROOT / "app" / "src" / "main" / "assets" / "penozovi_plugins" / "store.json",
 ]
 REQUIRED = ["id", "name", "version", "author", "description", "category"]
@@ -64,6 +65,11 @@ def main():
         "count": len(plugins),
         "plugins": plugins,
     }
+    html_src = ROOT / "store" / "index.html"
+    html_dst = ROOT / "site" / "penozovi-store" / "index.html"
+    html_dst.parent.mkdir(parents=True, exist_ok=True)
+    html_dst.write_text(html_src.read_text(encoding="utf-8"), encoding="utf-8")
+
     for out in OUTPUTS:
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
