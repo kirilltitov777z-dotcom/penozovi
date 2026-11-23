@@ -199,7 +199,7 @@ val releaseNotesImageFiles = providers.provider {
 }
 val debugApplicationIdSuffix =
     providers.gradleProperty("candy.debugApplicationIdSuffix").orElse(".linkpeek")
-val debugAppLabel = providers.gradleProperty("candy.debugAppLabel").orElse("Candy Link Peek")
+val debugAppLabel = providers.gradleProperty("candy.debugAppLabel").orElse("Penozovi Debug")
 val localReleaseApplicationIdSuffix =
     providers.gradleProperty("candy.localReleaseApplicationIdSuffix")
         .orElse(".local")
@@ -270,7 +270,7 @@ android {
         create("foss") {
             dimension = "distribution"
             applicationIdSuffix = ".foss"
-            manifestPlaceholders["appLabel"] = "Candy FOSS"
+            manifestPlaceholders["appLabel"] = "Penozovi FOSS"
             buildConfigField("boolean", "FOSS_DISTRIBUTION", "true")
             proguardFile("proguard-foss-rules.pro")
         }
@@ -278,7 +278,7 @@ android {
         create("systemwebview") {
             dimension = "distribution"
             applicationIdSuffix = ".systemwebview"
-            manifestPlaceholders["appLabel"] = "Candy System WebView"
+            manifestPlaceholders["appLabel"] = "Penozovi WebView"
             manifestPlaceholders["performanceDiagnosticsEnabled"] = "false"
             buildConfigField("boolean", "SYSTEM_WEBVIEW_ONLY", "true")
         }
@@ -433,9 +433,9 @@ androidComponents {
     onVariants { variant ->
         if (variant.buildType == "nightly") {
             val appLabel = when (variant.productFlavors.toMap()["distribution"]) {
-                "full" -> "Candy Browser Nightly"
-                "foss" -> "Candy FOSS Nightly"
-                "systemwebview" -> "Candy System WebView Nightly"
+                "full" -> "Penozovi Browser Nightly"
+                "foss" -> "Penozovi FOSS Nightly"
+                "systemwebview" -> "Penozovi WebView Nightly"
                 else -> error("Unknown nightly distribution: ${variant.name}")
             }
             variant.manifestPlaceholders.put("appLabel", appLabel)
