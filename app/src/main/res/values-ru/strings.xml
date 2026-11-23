@@ -1660,4 +1660,6 @@
     <string name="settings_home_pages_internal">Встроенная стартовая страница</string>
     <string name="settings_home_pages_empty">Пустое поле = встроенная стартовая страница</string>
     <string name="settings_home_pages_invalid">Введите действительный веб-адрес HTTP или HTTPS.</string>
+    <string name="penozovi_plugin_store_title">Магазин плагинов</string>
+    <string name="penozovi_plugin_store_subtitle">Плагины, каталог и установка</string>
 </resources>

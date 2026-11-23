@@ -29,10 +29,10 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
       - name: Assemble debug APK
-        run: ./gradlew :app:assembleSystemwebviewDebug --stacktrace --no-daemon
+        run: ./gradlew :app:assembleSystemwebviewRelease --stacktrace --no-daemon
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: penozovi-debug-apk
-          path: app/build/outputs/apk/systemwebview/debug/*.apk
+          path: app/build/outputs/apk/systemwebview/release/*.apk
           if-no-files-found: warn

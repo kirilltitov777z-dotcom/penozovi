@@ -16,6 +16,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import android.content.Intent
+import android.net.Uri
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -98,6 +101,7 @@ internal fun BrowserSettingsPage(
     onExternalAppLinks: () -> Unit = {},
     onTranslations: () -> Unit = {},
 ) {
+    val pluginStoreContext = LocalContext.current
     SettingsPage(
         title = stringResource(when (section) {
             BrowserSettingsSection.Startup -> R.string.settings_browser_group_startup
@@ -159,6 +163,20 @@ internal fun BrowserSettingsPage(
                         else R.string.settings_make_default_browser,
                     ),
                     onClick = onOpenDefaultBrowserSettings,
+                )
+                SettingsPreferenceDivider()
+                SettingsLink(
+                    icon = Icons.Default.Search,
+                    title = stringResource(R.string.penozovi_plugin_store_title),
+                    subtitle = stringResource(R.string.penozovi_plugin_store_subtitle),
+                    onClick = {
+                        pluginStoreContext.startActivity(
+                            Intent(
+                                Intent.ACTION_VIEW,
+                                Uri.parse("https://github.com/kirilltitov777z-dotcom/penozovi/tree/main/plugins/catalog"),
+                            ),
+                        )
+                    },
                 )
             }
             Spacer(Modifier.height(18.dp))
