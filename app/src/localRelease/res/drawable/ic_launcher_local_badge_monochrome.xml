@@ -1,9 +1,6 @@
+<!-- Penozovi: no build badge. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
-    android:viewportHeight="108">
-    <path
-        android:fillColor="#000000"
-        android:pathData="M79,62A17,17 0,1 1,78.99 62Z" />
-</vector>
+    android:viewportHeight="108" />

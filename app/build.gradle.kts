@@ -206,7 +206,7 @@ val localReleaseApplicationIdSuffix =
         .map(::validatedApplicationIdSuffix)
 val localReleaseAppLabel =
     providers.gradleProperty("candy.localReleaseAppLabel")
-        .orElse("Penozovi Local")
+        .orElse("Penozovi")
         .map(::validatedAppLabel)
 val releaseAbi = providers.gradleProperty("candy.releaseAbi").map { value ->
     require(value == "arm64-v8a") {
