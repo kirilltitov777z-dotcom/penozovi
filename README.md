@@ -4,6 +4,10 @@
 
 Это форк: исходная архитектура, жесты, приватность и WebView/Gecko остаются от Candy Browser, а брендинг, иконка, тема и система плагинов — наши.
 
+## Скачать
+
+Готовый подписанный APK: [Penozovi v1.0.0](https://github.com/kirilltitov777z-dotcom/penozovi/releases/latest) — Android, arm64-v8a.
+
 ## Что изменилось
 
 - **Новое имя и иконка.** Penozovi вместо Candy Browser; иконка — розовый «лепестковый» знак с другим символом (не `π`).
