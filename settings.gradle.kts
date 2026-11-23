@@ -27,7 +27,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MaterialBrowser"
+rootProject.name = "Penozovi"
 include(":app")
 include(":shared")
 

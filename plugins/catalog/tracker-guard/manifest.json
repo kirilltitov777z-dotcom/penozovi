@@ -1,0 +1,12 @@
+{
+  "id": "dev.penozovi.plugin.tracker-guard",
+  "name": "Страж трекеров+",
+  "version": "1.2.0",
+  "author": "Penozovi",
+  "description": "Дополнительные правила против трекеров и скрытых пикселей поверх встроенных фильтров.",
+  "category": "privacy",
+  "icon": "🛡️",
+  "permissions": ["content", "network"],
+  "entry": "main.js",
+  "minBrowserVersion": "1.0.0"
+}

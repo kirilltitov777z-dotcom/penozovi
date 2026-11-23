@@ -1,0 +1,12 @@
+{
+  "id": "dev.penozovi.plugin.night-shift",
+  "name": "Тёплый вечер",
+  "version": "1.0.0",
+  "author": "Penozovi",
+  "description": "Мягкий тёплый фильтр и чуть приглушённая яркость для чтения ночью.",
+  "category": "appearance",
+  "icon": "🌙",
+  "permissions": ["content"],
+  "entry": "main.js",
+  "minBrowserVersion": "1.0.0"
+}

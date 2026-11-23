@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Penozovi plugin manifest",
+  "type": "object",
+  "required": ["id", "name", "version", "author", "description", "category"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9._-]+$",
+      "description": "Уникальный reverse-DNS идентификатор плагина"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "author": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "category": {
+      "type": "string",
+      "enum": ["appearance", "privacy", "productivity", "media", "feeds", "other"]
+    },
+    "icon": { "type": "string", "description": "Emoji или URL картинки" },
+    "permissions": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["content", "storage", "network"] },
+      "uniqueItems": true
+    },
+    "entry": { "type": "string", "description": "Относительный путь к main.js" },
+    "homepage": { "type": "string" },
+    "minBrowserVersion": { "type": "string" }
+  },
+  "additionalProperties": true
+}

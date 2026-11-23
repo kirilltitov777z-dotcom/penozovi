@@ -5,4 +5,7 @@
     <color name="app_icon_lemon_background">#FDF3DA</color>
     <color name="app_icon_donut_background">#FCE1F3</color>
     <color name="app_icon_jelly_beans_background">#FDFCF5</color>
+    <color name="penozovi_pink">#F6BFCB</color>
+    <color name="penozovi_rose">#7E2E33</color>
+    <color name="penozovi_ink">#2A2326</color>
 </resources>

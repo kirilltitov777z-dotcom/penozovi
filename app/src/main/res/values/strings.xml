@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Candy Browser</string>
+    <string name="app_name">Penozovi</string>
     <string name="widget_name">Candy search</string>
     <string name="widget_description">Open Candy, start a search, or create a tab in a profile</string>
     <string name="widget_search_hint">Search with Candy</string>
@@ -8,7 +8,7 @@
     <string name="widget_open_profile_tab">Open a new tab in profile %1$s</string>
     <string name="widget_preview_profile_one" translatable="false">🍬</string>
     <string name="widget_preview_profile_two" translatable="false">💼</string>
-    <string name="onboarding_welcome_title">Meet Candy Browser</string>
+    <string name="onboarding_welcome_title">Meet Penozovi</string>
     <string name="onboarding_welcome_body">A gesture-first browser that keeps tabs, journeys and privacy controls close at hand.</string>
     <string name="onboarding_welcome_card_title">Three gestures. One fluid workflow.</string>
     <string name="onboarding_welcome_start">Learn the gestures</string>
@@ -251,7 +251,7 @@
     <string name="web_prompt_repost_message">Returning to this page will resend information you entered.</string>
     <string name="web_prompt_resend">Send again</string>
     <string name="update_available_title">Update available</string>
-    <string name="update_available_message">Candy Browser %1$s is available. Download the signed APK from GitHub? When the download finishes, open it to let Android verify and install the update.</string>
+    <string name="update_available_message">Penozovi %1$s is available. Download the signed APK from GitHub? When the download finishes, open it to let Android verify and install the update.</string>
     <string name="action_download_update">Download update</string>
     <string name="action_view_release_notes">Release notes</string>
     <string name="action_later">Later</string>
@@ -281,7 +281,7 @@
     <string name="command_new_incognito_tab_name">New incognito tab</string>
     <string name="command_new_incognito_tab_effect">Opens a private tab that is not saved</string>
     <string name="command_open_settings_name">Open settings</string>
-    <string name="command_open_settings_effect">Opens Candy Browser settings</string>
+    <string name="command_open_settings_effect">Opens Penozovi settings</string>
     <string name="command_feedback_cache_cleared">Cache cleared and tab reloaded</string>
     <string name="command_feedback_cookies_cleared">Cookies deleted and tab reloaded</string>
     <string name="command_feedback_reloaded">Tab reloaded</string>
@@ -652,8 +652,8 @@
     <string name="action_candy_player_show_controls">Show controls</string>
     <string name="action_candy_player_hide_controls">Hide controls</string>
     <string name="settings_default_browser">Default browser</string>
-    <string name="settings_default_browser_active">Candy Browser is your default browser</string>
-    <string name="settings_make_default_browser">Make Candy Browser the default</string>
+    <string name="settings_default_browser_active">Penozovi is your default browser</string>
+    <string name="settings_make_default_browser">Make Penozovi the default</string>
     <string name="settings_section_gestures">Gestures</string>
     <string name="settings_link_long_press_action">Long-press link action</string>
     <string name="settings_address_bar_long_press_title">Long-press address bar action</string>
@@ -747,8 +747,8 @@
     <string name="settings_open_source_summary">Runtime libraries, services, and filter data</string>
     <string name="settings_uassets_source_title">uBlock Origin block source</string>
     <string name="settings_uassets_source_summary">Pinned source, scope, and GPL-3.0 license</string>
-    <string name="about_imprint_body">Candy Browser is a personal project with publicly available source, developed by %1$s. The linked public GitHub profile shows the developer and current projects.</string>
-    <string name="about_version">Candy Browser version %1$s</string>
+    <string name="about_imprint_body">Penozovi is a personal project with publicly available source, developed by %1$s. The linked public GitHub profile shows the developer and current projects.</string>
+    <string name="about_version">Penozovi version %1$s</string>
     <string name="about_github_action">Open GitHub profile</string>
     <string name="about_open_source_intro">Candy uses these runtime components, services, and filter data. Google Code Scanner is listed separately because Google APIs Terms apply instead of an open-source license.</string>
     <string name="about_open_source_intro_foss">Candy uses these open-source runtime components and filter data. This FOSS build excludes Google Play services.</string>
@@ -1188,7 +1188,7 @@
     <string name="snooze_notification_channel_name">Snoozed tabs</string>
     <string name="snooze_notification_channel_description">Alerts when snoozed tabs are ready</string>
     <string name="snooze_notification_title">Snoozed tab is ready</string>
-    <string name="snooze_notification_open_app">Tap to open Candy Browser</string>
+    <string name="snooze_notification_open_app">Tap to open Penozovi</string>
     <string name="private_tabs_notification_channel_name">Private tabs</string>
     <string name="private_tabs_notification_channel_description">Shows when private tabs are open</string>
     <string name="private_tabs_notification_close">Tap to close all private tabs</string>

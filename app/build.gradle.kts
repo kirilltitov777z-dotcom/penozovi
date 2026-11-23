@@ -228,7 +228,7 @@ android {
     compileSdkMinor = 2
 
     defaultConfig {
-        applicationId = "dev.sk2andy.materialbrowser"
+        applicationId = "dev.penozovi.browser"
         minSdk = 31
         targetSdk = 36
         versionCode = candyVersionCode.get().toInt()

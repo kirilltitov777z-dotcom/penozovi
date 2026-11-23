@@ -1,0 +1,12 @@
+{
+  "id": "dev.penozovi.plugin.reading-clock",
+  "name": "Часы чтения",
+  "version": "1.0.1",
+  "author": "Penozovi",
+  "description": "Компактные часы и счётчик прочитанных минут в панели браузера.",
+  "category": "productivity",
+  "icon": "⏱️",
+  "permissions": ["storage"],
+  "entry": "main.js",
+  "minBrowserVersion": "1.0.0"
+}
